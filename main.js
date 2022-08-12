@@ -39,7 +39,7 @@ function getQuestions() {
         handleBullets();
 
         clearInterval(countdownInterval);
-        countdown(3, qCount);
+        countdown(150, qCount);
 
         showResults(qCount);
       };
